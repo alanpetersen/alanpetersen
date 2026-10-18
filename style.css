@@ -1,0 +1,10 @@
+:root { --accent: #2563eb; --bg: #f8fafc; --fg: #0f172a; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; }
+header, main, footer { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+a { color: var(--accent); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+.tile { display: block; padding: 1.25rem; background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; text-decoration: none; color: inherit; transition: transform .15s, box-shadow .15s; }
+.tile:hover, .tile:focus { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.1); }
+.tile h3 { margin: 0 0 .5rem; color: var(--accent); }
+.tile p { margin: 0; }
