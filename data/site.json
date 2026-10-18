@@ -1,0 +1,44 @@
+{
+  "name": "Alan Petersen",
+  "role": "Senior technical architect",
+  "org": "Salesforce",
+  "place": "Tucson",
+  "headline": "I fix things.",
+  "summary": "Most of my time goes to Salesforce architecture. This page is the index of the other things I'm building.",
+  "links": [
+    { "label": "GitHub", "href": "https://github.com/alanpetersen" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/alanpetersen" },
+    { "label": "@AZalan", "href": "https://x.com/AZalan" }
+  ],
+  "projects": [
+    {
+      "slug": "example",
+      "title": "Example project",
+      "year": "2026",
+      "status": "building",
+      "kind": "tool",
+      "featured": true,
+      "summary": "A sample card so the layout has something to show. Replace this object in data/site.json.",
+      "detail": [
+        "The project page is generated from the same entry. Write the longer story in detail, one paragraph per string.",
+        "Status, kind, tags, and links are all optional. Delete this entry when the first real project is ready."
+      ],
+      "tags": ["Sample", "Edit me"],
+      "links": [
+        { "label": "How to add a project", "href": "https://github.com/alanpetersen/alanpetersen.github.io#add-a-project" }
+      ]
+    },
+    {
+      "slug": "earlier-example",
+      "title": "Earlier example",
+      "year": "2020",
+      "status": "archive",
+      "kind": "other",
+      "summary": "Archived work stays on the site in a quieter list.",
+      "detail": [
+        "Set status to archive for a project that should remain listed without leading the page."
+      ],
+      "tags": ["Sample"]
+    }
+  ]
+}
